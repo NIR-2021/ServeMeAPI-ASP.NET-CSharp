@@ -1,0 +1,53 @@
+2022-07-31 00:16:48.680 -05:00 [INF] Now listening on: https://localhost:7083
+2022-07-31 00:16:48.734 -05:00 [INF] Now listening on: http://localhost:5083
+2022-07-31 00:16:48.742 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-31 00:16:48.743 -05:00 [INF] Hosting environment: Development
+2022-07-31 00:16:48.744 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M2\
+2022-07-31 00:18:56.127 -05:00 [INF] Now listening on: https://localhost:7083
+2022-07-31 00:18:56.181 -05:00 [INF] Now listening on: http://localhost:5083
+2022-07-31 00:18:56.189 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-31 00:18:56.192 -05:00 [INF] Hosting environment: Development
+2022-07-31 00:18:56.193 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M2\
+2022-07-31 00:19:59.301 -05:00 [INF] Now listening on: https://localhost:7083
+2022-07-31 00:19:59.342 -05:00 [INF] Now listening on: http://localhost:5083
+2022-07-31 00:19:59.392 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-31 00:19:59.394 -05:00 [INF] Hosting environment: Development
+2022-07-31 00:19:59.396 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M2\
+2022-07-31 00:21:01.115 -05:00 [INF] Now listening on: https://localhost:7083
+2022-07-31 00:21:01.167 -05:00 [INF] Now listening on: http://localhost:5083
+2022-07-31 00:21:01.175 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-31 00:21:01.175 -05:00 [INF] Hosting environment: Development
+2022-07-31 00:21:01.176 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M2\
+2022-07-31 00:21:39.888 -05:00 [INF] Now listening on: https://localhost:7083
+2022-07-31 00:21:39.942 -05:00 [INF] Now listening on: http://localhost:5083
+2022-07-31 00:21:39.949 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-31 00:21:39.950 -05:00 [INF] Hosting environment: Development
+2022-07-31 00:21:39.951 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M2\
+2022-07-31 00:34:28.095 -05:00 [WRN] User validation failed: DuplicateUserName.
+2022-07-31 00:36:40.805 -05:00 [INF] Now listening on: https://localhost:7083
+2022-07-31 00:36:40.850 -05:00 [INF] Now listening on: http://localhost:5083
+2022-07-31 00:36:40.857 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-31 00:36:40.858 -05:00 [INF] Hosting environment: Development
+2022-07-31 00:36:40.859 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M2\
+2022-07-31 00:56:43.736 -05:00 [INF] Now listening on: https://localhost:7083
+2022-07-31 00:56:43.780 -05:00 [INF] Now listening on: http://localhost:5083
+2022-07-31 00:56:43.787 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-31 00:56:43.788 -05:00 [INF] Hosting environment: Development
+2022-07-31 00:56:43.789 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M2\
+2022-07-31 03:36:38.771 -05:00 [INF] Now listening on: https://localhost:7083
+2022-07-31 03:36:38.799 -05:00 [INF] Now listening on: http://localhost:5083
+2022-07-31 03:36:38.803 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-31 03:36:38.804 -05:00 [INF] Hosting environment: Development
+2022-07-31 03:36:38.805 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M2\
+2022-07-31 03:37:04.899 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-31 03:37:04.935 -05:00 [INF] Hosting environment: Development
+2022-07-31 03:37:04.936 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M2\
+2022-07-31 03:39:31.220 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-31 03:39:31.258 -05:00 [INF] Hosting environment: Development
+2022-07-31 03:39:31.264 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M2\
+2022-07-31 19:50:17.912 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-31 19:50:17.955 -05:00 [INF] Hosting environment: Development
+2022-07-31 19:50:17.956 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M2\
+2022-07-31 19:51:19.365 -05:00 [WRN] User validation failed: DuplicateUserName.
+2022-07-31 19:52:43.865 -05:00 [WRN] User validation failed: DuplicateUserName.
+2022-07-31 19:54:44.661 -05:00 [WRN] User validation failed: DuplicateUserName.

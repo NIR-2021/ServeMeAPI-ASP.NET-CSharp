@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "mssql5": {
+      "restored": true,
+      "restoreTime": "2023-03-02T01:35:34.1598235Z"
+    }
+  },
+  "parameters": {
+    "mssql5.subscriptionId": {
+      "Name": "mssql5.subscriptionId",
+      "Type": "subscription",
+      "Value": "93b194cc-a538-4967-b4ef-cbc98c6ddf1c"
+    },
+    "mssql5.resourceGroupName": {
+      "Name": "mssql5.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "ServeMeM220230228184230RG_1"
+    }
+  }
+}

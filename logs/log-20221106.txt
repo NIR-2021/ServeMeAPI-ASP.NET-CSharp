@@ -1,0 +1,11 @@
+2022-11-06 00:10:53.101 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-06 00:10:53.184 -05:00 [INF] Hosting environment: Development
+2022-11-06 00:10:53.189 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M4\
+2022-11-06 00:24:35.478 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-06 00:24:35.559 -05:00 [INF] Hosting environment: Development
+2022-11-06 00:24:35.563 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M4\
+2022-11-06 00:41:51.361 -05:00 [INF] Now listening on: https://localhost:7083
+2022-11-06 00:41:51.412 -05:00 [INF] Now listening on: http://localhost:5083
+2022-11-06 00:41:51.418 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-06 00:41:51.419 -05:00 [INF] Hosting environment: Development
+2022-11-06 00:41:51.421 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M4\

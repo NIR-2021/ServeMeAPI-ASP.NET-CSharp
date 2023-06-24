@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql5": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/servemeserver-1/databases/serveMeDB-1",
+      "type": "mssql.azure",
+      "connectionId": "Azure"
+    }
+  }
+}

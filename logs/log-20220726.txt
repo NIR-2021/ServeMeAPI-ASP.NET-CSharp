@@ -1,0 +1,5 @@
+2022-07-26 15:31:43.686 -05:00 [INF] Now listening on: https://localhost:7083
+2022-07-26 15:31:43.728 -05:00 [INF] Now listening on: http://localhost:5083
+2022-07-26 15:31:43.734 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-26 15:31:43.736 -05:00 [INF] Hosting environment: Development
+2022-07-26 15:31:43.737 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M2\

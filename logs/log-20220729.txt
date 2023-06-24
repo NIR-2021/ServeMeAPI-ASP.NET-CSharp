@@ -1,0 +1,30 @@
+2022-07-29 01:02:40.606 -05:00 [INF] Now listening on: https://localhost:7083
+2022-07-29 01:02:40.656 -05:00 [INF] Now listening on: http://localhost:5083
+2022-07-29 01:02:40.663 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-29 01:02:40.664 -05:00 [INF] Hosting environment: Development
+2022-07-29 01:02:40.665 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M2\
+2022-07-29 01:04:46.249 -05:00 [INF] Now listening on: https://localhost:7083
+2022-07-29 01:04:46.288 -05:00 [INF] Now listening on: http://localhost:5083
+2022-07-29 01:04:46.294 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-29 01:04:46.297 -05:00 [INF] Hosting environment: Development
+2022-07-29 01:04:46.297 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M2\
+2022-07-29 15:37:40.194 -05:00 [INF] Now listening on: https://localhost:7083
+2022-07-29 15:37:40.243 -05:00 [INF] Now listening on: http://localhost:5083
+2022-07-29 15:37:40.250 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-29 15:37:40.252 -05:00 [INF] Hosting environment: Development
+2022-07-29 15:37:40.253 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M2\
+2022-07-29 15:38:02.970 -05:00 [WRN] User password validation failed: PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
+2022-07-29 15:38:19.126 -05:00 [WRN] User validation failed: DuplicateUserName.
+2022-07-29 15:38:28.918 -05:00 [WRN] User validation failed: DuplicateUserName.
+2022-07-29 17:37:03.842 -05:00 [INF] Now listening on: https://localhost:7083
+2022-07-29 17:37:03.881 -05:00 [INF] Now listening on: http://localhost:5083
+2022-07-29 17:37:03.889 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-29 17:37:03.890 -05:00 [INF] Hosting environment: Development
+2022-07-29 17:37:03.891 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M2\
+2022-07-29 17:38:18.979 -05:00 [WRN] Invalid password for user.
+2022-07-29 20:14:45.004 -05:00 [INF] Now listening on: https://localhost:7083
+2022-07-29 20:14:45.036 -05:00 [INF] Now listening on: http://localhost:5083
+2022-07-29 20:14:45.043 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-29 20:14:45.044 -05:00 [INF] Hosting environment: Development
+2022-07-29 20:14:45.045 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M2\
+2022-07-29 20:14:52.759 -05:00 [WRN] Invalid password for user.

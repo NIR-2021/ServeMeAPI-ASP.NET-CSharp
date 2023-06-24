@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAFVfmmU8s/0OId9eyDBSDAgAAAAACAAAAAAAQZgAAAAEAACAAAAANN1Co3uwtJsNP8tRd9STeUh1INMhlxcOypcb2ddzD3QAAAAAOgAAAAAIAACAAAAA1NCz3GPbsOlGTFc/Xg8dlpioKJZO6AGyaypREZJ7nvYAAAACNOu3D9GxFw9SZ806oL2zxK6tcO0M9eTqeY2WXeisPZhyFRA6E5B+CJpDmgBkH1+Y+cd1maZh9hsL9VJEnH6UvLRciagETl6Taru3cSHfVAX1rC1ziM8mFFlB6++3tXgv/kDXYCGMT8iL491iguejqbtBeP/lMjzh58yVOybgzXUAAAABk3rOuNJ2IB3U8xrUfusE4KFl1ubgxP6gEeF+P6Ld+8Tuu00y1SPldGyDqloUJ5oaNdDp5Y/FKD1spyZ6KYRVl</EncryptedPassword>
+    <History>True|2023-03-02T01:37:09.6330162Z;True|2023-03-01T19:29:48.3622342-06:00;True|2023-03-01T19:25:26.3813577-06:00;True|2023-02-28T19:59:47.8297879-06:00;True|2023-02-28T19:57:50.8280973-06:00;True|2023-02-28T19:39:21.3520033-06:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="Azure">
+      <Value>Server=tcp:servemeserver-1.database.windows.net,1433%3bInitial Catalog=serveMeDB-1%3bPersist Security Info=False%3bUser ID=serveMeServer-1Admin%3bPassword=Mamta%402021%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="ServeMe_M2.Data.ServeMeDbContext">
+      <Value>Data Source=tcp:servemeserver-1.database.windows.net,1433%3bInitial Catalog=serveMeDB-1%3bUser Id=serveMeServer-1Admin%40servemeserver-1%3bPassword=Mamta%402021</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

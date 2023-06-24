@@ -1,0 +1,5 @@
+2023-05-03 21:11:51.662 -05:00 [INF] Now listening on: http://localhost:5000
+2023-05-03 21:11:51.694 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-03 21:11:51.696 -05:00 [INF] Hosting environment: Production
+2023-05-03 21:11:51.696 -05:00 [INF] Content root path: C:\Nirbheek\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M4\bin\Debug\net6.0\
+2023-05-03 21:12:07.041 -05:00 [INF] Application is shutting down...

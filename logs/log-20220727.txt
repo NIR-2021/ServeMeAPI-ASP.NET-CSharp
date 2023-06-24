@@ -1,0 +1,84 @@
+2022-07-27 02:56:01.409 -05:00 [ERR] Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUsers] (
+    [Id] nvarchar(450) NOT NULL,
+    [fistName] nvarchar(max) NULL,
+    [lastName] nvarchar(max) NULL,
+    [email] nvarchar(max) NULL,
+    [address] nvarchar(max) NULL,
+    [phone] nvarchar(max) NULL,
+    [password] nvarchar(max) NULL,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    CONSTRAINT [PK_AspNetUsers] PRIMARY KEY ([Id])
+);
+2022-07-27 04:14:10.787 -05:00 [INF] Now listening on: https://localhost:7083
+2022-07-27 04:14:10.829 -05:00 [INF] Now listening on: http://localhost:5083
+2022-07-27 04:14:10.838 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-27 04:14:10.839 -05:00 [INF] Hosting environment: Development
+2022-07-27 04:14:10.841 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M2\
+2022-07-27 04:14:20.889 -05:00 [WRN] User password validation failed: PasswordRequiresNonAlphanumeric;PasswordRequiresDigit;PasswordRequiresUpper.
+2022-07-27 04:14:36.207 -05:00 [WRN] User password validation failed: PasswordRequiresNonAlphanumeric;PasswordRequiresUpper.
+2022-07-27 04:14:58.468 -05:00 [WRN] User password validation failed: PasswordRequiresNonAlphanumeric.
+2022-07-27 04:15:08.134 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Role USER does not exist.
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserStore`9.AddToRoleAsync(TUser user, String normalizedRoleName, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.AddToRoleAsync(TUser user, String role)
+   at ServeMe_M2.Repo.AuthManager.Register(ApiUserDto apiUserDto) in C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M2\Repo\AuthManager.cs:line 27
+   at ServeMe_M2.Controllers.UserController.Post(ApiUserDto apiUserDto) in C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M2\Controllers\UserController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-07-27 04:16:28.451 -05:00 [INF] Now listening on: https://localhost:7083
+2022-07-27 04:16:28.509 -05:00 [INF] Now listening on: http://localhost:5083
+2022-07-27 04:16:28.517 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-27 04:16:28.519 -05:00 [INF] Hosting environment: Development
+2022-07-27 04:16:28.520 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M2\
+2022-07-27 04:16:44.153 -05:00 [WRN] User validation failed: DuplicateUserName.
+2022-07-27 04:24:51.564 -05:00 [INF] Now listening on: https://localhost:7083
+2022-07-27 04:24:51.594 -05:00 [INF] Now listening on: http://localhost:5083
+2022-07-27 04:24:51.600 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-27 04:24:51.601 -05:00 [INF] Hosting environment: Development
+2022-07-27 04:24:51.602 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M2\
+2022-07-27 15:37:56.810 -05:00 [INF] Now listening on: https://localhost:7083
+2022-07-27 15:37:56.952 -05:00 [INF] Now listening on: http://localhost:5083
+2022-07-27 15:37:56.969 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-27 15:37:56.971 -05:00 [INF] Hosting environment: Development
+2022-07-27 15:37:56.973 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M2\
+2022-07-27 15:58:43.726 -05:00 [INF] Now listening on: https://localhost:7083
+2022-07-27 15:58:43.847 -05:00 [INF] Now listening on: http://localhost:5083
+2022-07-27 15:58:43.865 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-27 15:58:43.868 -05:00 [INF] Hosting environment: Development
+2022-07-27 15:58:43.870 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M2\
+2022-07-27 16:01:16.473 -05:00 [INF] Now listening on: https://localhost:7083
+2022-07-27 16:01:16.547 -05:00 [INF] Now listening on: http://localhost:5083
+2022-07-27 16:01:16.558 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-27 16:01:16.560 -05:00 [INF] Hosting environment: Development
+2022-07-27 16:01:16.561 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M2\
+2022-07-27 17:25:49.925 -05:00 [INF] Now listening on: https://localhost:7083
+2022-07-27 17:25:50.061 -05:00 [INF] Now listening on: http://localhost:5083
+2022-07-27 17:25:50.072 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-27 17:25:50.081 -05:00 [INF] Hosting environment: Development
+2022-07-27 17:25:50.083 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M2\

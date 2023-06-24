@@ -1,0 +1,95 @@
+2023-02-28 17:43:21.806 -06:00 [ERR] Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'vendorId', N'Id', N'cDate', N'categoryId', N'isActive', N'isDeleted', N'vendorAddress', N'vendorDescription', N'vendorEmail', N'vendorName', N'vendorPhone') AND [object_id] = OBJECT_ID(N'[vendors]'))
+    SET IDENTITY_INSERT [vendors] ON;
+INSERT INTO [vendors] ([vendorId], [Id], [cDate], [categoryId], [isActive], [isDeleted], [vendorAddress], [vendorDescription], [vendorEmail], [vendorName], [vendorPhone])
+VALUES (1, N'7302a0e6-58b7-4bac-a96e-ac2f7419c1b3', '2023-02-28T16:45:47.4218443-06:00', 0, N'true', N'false', N'america', NULL, N'Username@gmail.com', N'Nirbheek', N'9924804879');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'vendorId', N'Id', N'cDate', N'categoryId', N'isActive', N'isDeleted', N'vendorAddress', N'vendorDescription', N'vendorEmail', N'vendorName', N'vendorPhone') AND [object_id] = OBJECT_ID(N'[vendors]'))
+    SET IDENTITY_INSERT [vendors] OFF;
+2023-02-28 17:44:14.113 -06:00 [ERR] Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'vendorId', N'Id', N'cDate', N'categoryId', N'isActive', N'isDeleted', N'vendorAddress', N'vendorDescription', N'vendorEmail', N'vendorName', N'vendorPhone') AND [object_id] = OBJECT_ID(N'[vendors]'))
+    SET IDENTITY_INSERT [vendors] ON;
+INSERT INTO [vendors] ([vendorId], [Id], [cDate], [categoryId], [isActive], [isDeleted], [vendorAddress], [vendorDescription], [vendorEmail], [vendorName], [vendorPhone])
+VALUES (1, N'7302a0e6-58b7-4bac-a96e-ac2f7419c1b3', '2023-02-28T17:44:04.3523687-06:00', 0, N'true', N'false', N'america', NULL, N'Username@gmail.com', N'Nirbheek', N'9924804879');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'vendorId', N'Id', N'cDate', N'categoryId', N'isActive', N'isDeleted', N'vendorAddress', N'vendorDescription', N'vendorEmail', N'vendorName', N'vendorPhone') AND [object_id] = OBJECT_ID(N'[vendors]'))
+    SET IDENTITY_INSERT [vendors] OFF;
+2023-02-28 17:56:07.327 -06:00 [ERR] Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'vendorId', N'Id', N'cDate', N'categoryId', N'isActive', N'isDeleted', N'vendorAddress', N'vendorDescription', N'vendorEmail', N'vendorName', N'vendorPhone') AND [object_id] = OBJECT_ID(N'[vendors]'))
+    SET IDENTITY_INSERT [vendors] ON;
+INSERT INTO [vendors] ([vendorId], [Id], [cDate], [categoryId], [isActive], [isDeleted], [vendorAddress], [vendorDescription], [vendorEmail], [vendorName], [vendorPhone])
+VALUES (1, N'7302a0e6-58b7-4bac-a96e-ac2f7419c1b3', '2023-02-28T17:55:50.6930753-06:00', 0, N'true', N'false', N'america', NULL, N'Username@gmail.com', N'Nirbheek', N'9924804879');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'vendorId', N'Id', N'cDate', N'categoryId', N'isActive', N'isDeleted', N'vendorAddress', N'vendorDescription', N'vendorEmail', N'vendorName', N'vendorPhone') AND [object_id] = OBJECT_ID(N'[vendors]'))
+    SET IDENTITY_INSERT [vendors] OFF;
+2023-02-28 17:59:56.004 -06:00 [ERR] Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'categoryId', N'Name') AND [object_id] = OBJECT_ID(N'[categories]'))
+    SET IDENTITY_INSERT [categories] ON;
+INSERT INTO [categories] ([categoryId], [Name])
+VALUES (1, N'Appliances'),
+(2, N'Electrical'),
+(3, N'Plumbing'),
+(4, N'Home Cleaning'),
+(5, N'Tutoring'),
+(6, N'Packaging and Moving'),
+(7, N'Computer Repair'),
+(8, N'Home Repair and Painting'),
+(9, N'Pest Control');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'categoryId', N'Name') AND [object_id] = OBJECT_ID(N'[categories]'))
+    SET IDENTITY_INSERT [categories] OFF;
+2023-02-28 18:01:01.604 -06:00 [ERR] Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [users] (
+    [userId] int NOT NULL IDENTITY,
+    [name] nvarchar(max) NULL,
+    [email] nvarchar(max) NULL,
+    [phone] nvarchar(max) NULL,
+    [address] nvarchar(max) NULL,
+    [cDate] datetime2 NOT NULL,
+    [isVendor] nvarchar(max) NULL,
+    [isDeleted] nvarchar(max) NULL,
+    CONSTRAINT [PK_users] PRIMARY KEY ([userId])
+);
+2023-02-28 18:02:59.035 -06:00 [ERR] Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'vendorId', N'Id', N'cDate', N'categoryId', N'isActive', N'isDeleted', N'vendorAddress', N'vendorDescription', N'vendorEmail', N'vendorName', N'vendorPhone') AND [object_id] = OBJECT_ID(N'[vendors]'))
+    SET IDENTITY_INSERT [vendors] ON;
+INSERT INTO [vendors] ([vendorId], [Id], [cDate], [categoryId], [isActive], [isDeleted], [vendorAddress], [vendorDescription], [vendorEmail], [vendorName], [vendorPhone])
+VALUES (1, N'7302a0e6-58b7-4bac-a96e-ac2f7419c1b3', '2023-02-28T18:00:44.7555662-06:00', 0, N'true', N'false', N'america', NULL, N'Username@gmail.com', N'Nirbheek', N'9924804879');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'vendorId', N'Id', N'cDate', N'categoryId', N'isActive', N'isDeleted', N'vendorAddress', N'vendorDescription', N'vendorEmail', N'vendorName', N'vendorPhone') AND [object_id] = OBJECT_ID(N'[vendors]'))
+    SET IDENTITY_INSERT [vendors] OFF;
+2023-02-28 18:27:17.701 -06:00 [ERR] Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'vendorId', N'Id', N'cDate', N'categoryId', N'isActive', N'isDeleted', N'vendorAddress', N'vendorDescription', N'vendorEmail', N'vendorName', N'vendorPhone') AND [object_id] = OBJECT_ID(N'[vendors]'))
+    SET IDENTITY_INSERT [vendors] ON;
+INSERT INTO [vendors] ([vendorId], [Id], [cDate], [categoryId], [isActive], [isDeleted], [vendorAddress], [vendorDescription], [vendorEmail], [vendorName], [vendorPhone])
+VALUES (1, N'7302a0e6-58b7-4bac-a96e-ac2f7419c1b3', '2023-02-28T18:00:44.7555662-06:00', 0, N'true', N'false', N'america', NULL, N'Username@gmail.com', N'Nirbheek', N'9924804879');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'vendorId', N'Id', N'cDate', N'categoryId', N'isActive', N'isDeleted', N'vendorAddress', N'vendorDescription', N'vendorEmail', N'vendorName', N'vendorPhone') AND [object_id] = OBJECT_ID(N'[vendors]'))
+    SET IDENTITY_INSERT [vendors] OFF;
+2023-02-28 18:28:18.050 -06:00 [ERR] Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'vendorId', N'Id', N'cDate', N'categoryId', N'isActive', N'isDeleted', N'vendorAddress', N'vendorDescription', N'vendorEmail', N'vendorName', N'vendorPhone') AND [object_id] = OBJECT_ID(N'[vendors]'))
+    SET IDENTITY_INSERT [vendors] ON;
+INSERT INTO [vendors] ([vendorId], [Id], [cDate], [categoryId], [isActive], [isDeleted], [vendorAddress], [vendorDescription], [vendorEmail], [vendorName], [vendorPhone])
+VALUES (1, N'7302a0e6-58b7-4bac-a96e-ac2f7419c1b3', '2023-02-28T18:00:44.7555662-06:00', 0, N'true', N'false', N'america', NULL, N'Username@gmail.com', N'Nirbheek', N'9924804879');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'vendorId', N'Id', N'cDate', N'categoryId', N'isActive', N'isDeleted', N'vendorAddress', N'vendorDescription', N'vendorEmail', N'vendorName', N'vendorPhone') AND [object_id] = OBJECT_ID(N'[vendors]'))
+    SET IDENTITY_INSERT [vendors] OFF;
+2023-02-28 18:29:35.824 -06:00 [ERR] Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'vendorId', N'Id', N'cDate', N'categoryId', N'isActive', N'isDeleted', N'vendorAddress', N'vendorDescription', N'vendorEmail', N'vendorName', N'vendorPhone') AND [object_id] = OBJECT_ID(N'[vendors]'))
+    SET IDENTITY_INSERT [vendors] ON;
+INSERT INTO [vendors] ([vendorId], [Id], [cDate], [categoryId], [isActive], [isDeleted], [vendorAddress], [vendorDescription], [vendorEmail], [vendorName], [vendorPhone])
+VALUES (1, N'7302a0e6-58b7-4bac-a96e-ac2f7419c1b3', '2023-02-28T18:00:44.7555662-06:00', 0, N'true', N'false', N'america', NULL, N'Username@gmail.com', N'Nirbheek', N'9924804879');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'vendorId', N'Id', N'cDate', N'categoryId', N'isActive', N'isDeleted', N'vendorAddress', N'vendorDescription', N'vendorEmail', N'vendorName', N'vendorPhone') AND [object_id] = OBJECT_ID(N'[vendors]'))
+    SET IDENTITY_INSERT [vendors] OFF;
+2023-02-28 18:30:14.058 -06:00 [ERR] Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] nvarchar(450) NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+2023-02-28 18:34:53.690 -06:00 [INF] Now listening on: https://localhost:7083
+2023-02-28 18:34:53.739 -06:00 [INF] Now listening on: http://localhost:5083
+2023-02-28 18:34:53.746 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-28 18:34:53.746 -06:00 [INF] Hosting environment: Development
+2023-02-28 18:34:53.747 -06:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M4\
+2023-02-28 18:38:55.846 -06:00 [WRN] Invalid password for user.
+2023-02-28 19:51:01.931 -06:00 [INF] Now listening on: https://localhost:7083
+2023-02-28 19:51:01.971 -06:00 [INF] Now listening on: http://localhost:5083
+2023-02-28 19:51:01.974 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-02-28 19:51:01.975 -06:00 [INF] Hosting environment: Development
+2023-02-28 19:51:01.976 -06:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M4\

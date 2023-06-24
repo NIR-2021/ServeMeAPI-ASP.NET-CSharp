@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASn58qVBspUaJzY/F6MSolgAAAAACAAAAAAAQZgAAAAEAACAAAACadxdO1vr7jycow0MEptEOy7pN84r17l3HJgIa9v/lCAAAAAAOgAAAAAIAACAAAADQhC+4+GPfLsXk94tvH0kfJ5/FIyyQlj3t1gQDSeEU9oAAAAA/pJ0LpXHXapxrm7j25ogq58TZFNDEWvHzoYYBKn3aCyUhnoZJ9k26wHLmPOq6VbE/5BpLSxnbaaG9mqc9qwSGOUlf922I1CQfFEUVRosxVPKCgVoswCALWhqdiwJB5ja5c96j0WEj3gPU3oFDziFT0gvrvywud5lDFbLyktAPP0AAAAB0GL9ue7b2UUx//z5zuuOSQqEydYoE4gdnx1mDlm0I0SIqT0pPmAAWqnjzcYmaIGykXewrP+O52noFhQvu2PdO</EncryptedPassword>
+    <History>True|2022-08-01T23:49:43.9503497Z;True|2022-08-01T18:25:35.2877079-05:00;True|2022-07-31T20:57:02.6517122-05:00;True|2022-07-31T00:37:45.1484125-05:00;True|2022-07-30T04:05:05.1842631-05:00;False|2022-07-30T04:02:25.8356249-05:00;False|2022-07-30T04:01:24.9738095-05:00;False|2022-07-30T03:59:44.6054150-05:00;True|2022-07-30T03:39:12.9324816-05:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="ServeMe_M2.Data.ServeMeDbContext">
+      <Value>Data Source=tcp:serveme-m2-1dbserver-1.database.windows.net,1433%3bInitial Catalog=ServeMe_M2_db_1%3bUser Id=nir-azure-1%40serveme-m2-1dbserver-1%3bPassword=Mamta%402021</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

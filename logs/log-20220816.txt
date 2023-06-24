@@ -1,0 +1,15 @@
+2022-08-16 00:15:59.974 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-16 00:16:00.016 -05:00 [INF] Hosting environment: Development
+2022-08-16 00:16:00.019 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M4\
+2022-08-16 16:44:30.824 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-16 16:44:30.888 -05:00 [INF] Hosting environment: Development
+2022-08-16 16:44:30.891 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M4\
+2022-08-16 20:25:56.804 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-16 20:25:56.848 -05:00 [INF] Hosting environment: Development
+2022-08-16 20:25:56.851 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M4\
+2022-08-16 20:27:06.740 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-16 20:27:06.782 -05:00 [INF] Hosting environment: Development
+2022-08-16 20:27:06.784 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M4\
+2022-08-16 20:28:43.400 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-16 20:28:43.445 -05:00 [INF] Hosting environment: Development
+2022-08-16 20:28:43.447 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M4\

@@ -1,0 +1,15 @@
+2022-07-28 19:49:29.182 -05:00 [INF] Now listening on: https://localhost:7083
+2022-07-28 19:49:29.228 -05:00 [INF] Now listening on: http://localhost:5083
+2022-07-28 19:49:29.235 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-28 19:49:29.236 -05:00 [INF] Hosting environment: Development
+2022-07-28 19:49:29.238 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M2\
+2022-07-28 20:18:51.556 -05:00 [INF] Now listening on: https://localhost:7083
+2022-07-28 20:18:51.597 -05:00 [INF] Now listening on: http://localhost:5083
+2022-07-28 20:18:51.604 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-28 20:18:51.605 -05:00 [INF] Hosting environment: Development
+2022-07-28 20:18:51.607 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M2\
+2022-07-28 20:32:45.917 -05:00 [INF] Now listening on: https://localhost:7083
+2022-07-28 20:32:45.973 -05:00 [INF] Now listening on: http://localhost:5083
+2022-07-28 20:32:45.982 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-28 20:32:45.983 -05:00 [INF] Hosting environment: Development
+2022-07-28 20:32:45.985 -05:00 [INF] Content root path: C:\Nirbheek\UTA coursework\SE-1\Project\API\Mark-1\ServeMe_M2\

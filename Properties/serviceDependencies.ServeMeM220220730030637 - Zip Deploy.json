@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/serveme-m2dbserver-linux/databases/ServeMe_M2_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:nir-azure",
+      "dynamicId": null
+    }
+  }
+}
